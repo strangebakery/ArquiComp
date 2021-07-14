@@ -1,0 +1,6 @@
+v 4
+file . "ULA.vhd" "92b3067bcf15701f176b55baa97a59ea0732ea3a" "20210714145933.900":
+  entity mux_4x1 at 1( 0) + 0 on 11;
+  architecture a_mux_4x1 of mux_4x1 at 12( 246) + 0 on 12;
+  entity ula at 21( 463) + 0 on 13;
+  architecture a_ula of ula at 33( 730) + 0 on 14;

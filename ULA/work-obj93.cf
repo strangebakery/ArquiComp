@@ -1,6 +1,10 @@
 v 4
-file . "ULA.vhd" "92b3067bcf15701f176b55baa97a59ea0732ea3a" "20210714145933.900":
+file . "ULA_tb.vhd" "15ddc7dff3a08992bd4bce172dc4b1262c22c339" "20210715031359.838":
+  entity ula_tb at 1( 0) + 0 on 19;
+  architecture a_ula_tb of ula_tb at 8( 107) + 0 on 20;
+file . "mux_4x1.vhd" "5efa26d9f263118ff1c88e8dc88af4558bfd545c" "20210715025607.571":
   entity mux_4x1 at 1( 0) + 0 on 11;
   architecture a_mux_4x1 of mux_4x1 at 12( 246) + 0 on 12;
-  entity ula at 21( 463) + 0 on 13;
-  architecture a_ula of ula at 33( 730) + 0 on 14;
+file . "ULA.vhd" "0eddba67d17d3e2806b1e1498942d885ac259ec5" "20210715025615.727":
+  entity ula at 1( 0) + 0 on 13;
+  architecture a_ula of ula at 13( 267) + 0 on 14;
